@@ -1,0 +1,1146 @@
+{
+  "version": "2026-10-19",
+  "source": "使用者提供的 FraudAction 一般使用者操作手冊、v13.5 升版簡報；非官方考題",
+  "items": [
+    {
+      "uid": "rsa-8e8acd21fc5089e5",
+      "id": 1,
+      "category": "品牌與服務",
+      "section": "核心知識",
+      "question": "FraudAction Service 在本資料中主要處理什麼？",
+      "answer": "外部偽冒事件偵測及關閉下架",
+      "options": [
+        "資料庫備份排程",
+        "外部偽冒事件偵測及關閉下架",
+        "企業內部端點防毒",
+        "雲端資源成本優化"
+      ],
+      "correct": 1,
+      "explanation": "服務涵蓋釣魚、品牌偽冒及外部木馬事件相關的偵測與關閉作業。",
+      "explanation_source": "升版說明 p.1、p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-6aeb06680bcf1f71",
+      "id": 2,
+      "category": "品牌與服務",
+      "section": "核心知識",
+      "question": "操作手冊畫面顯示的平台品牌為何？",
+      "answer": "Outseer FraudAction",
+      "options": [
+        "Cyble Vision",
+        "Microsoft Defender",
+        "Outseer FraudAction",
+        "Bitsight SPM"
+      ],
+      "correct": 2,
+      "explanation": "教材平台標示 OUTSEER / FraudAction；RSA 字樣出現在舊有產業說明中，不宜直接當作所有產品名稱。",
+      "explanation_source": "一般使用者手冊 p.2",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-eb28ed054add0fe7",
+      "id": 3,
+      "category": "平台操作",
+      "section": "核心知識",
+      "question": "FraudAction Dashboard 的登入入口是？",
+      "answer": "https://dashboard.fraudaction.com/",
+      "options": [
+        "https://apwg.org/",
+        "https://outseer.com/login-local",
+        "https://fraudaction.com/download",
+        "https://dashboard.fraudaction.com/"
+      ],
+      "correct": 3,
+      "explanation": "操作手冊指定 Dashboard 登入網址。",
+      "explanation_source": "一般使用者手冊 p.2",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-5698032b892291e5",
+      "id": 4,
+      "category": "平台操作",
+      "section": "核心知識",
+      "question": "要找 Dashboard User Guide，應先開啟哪個選單？",
+      "answer": "右上角 Help",
+      "options": [
+        "右上角 Help",
+        "SEARCH 的 Case Type",
+        "My Hosting Authorities",
+        "Credential Recovery"
+      ],
+      "correct": 0,
+      "explanation": "操作手冊以右上角問號 Help 提供 Dashboard User Guide。",
+      "explanation_source": "一般使用者手冊 p.4",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-7d15c171b37ba619",
+      "id": 5,
+      "category": "平台操作",
+      "section": "核心知識",
+      "question": "API Reference Guide 從哪裡開啟？",
+      "answer": "右上角 Help 中的 API Reference Guide",
+      "options": [
+        "Cases 的案件狀態",
+        "右上角 Help 中的 API Reference Guide",
+        "登入頁密碼欄位",
+        "Dashboard 的 Brand 篩選"
+      ],
+      "correct": 1,
+      "explanation": "API Reference Guide 是 Help 下的文件入口。",
+      "explanation_source": "一般使用者手冊 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-b2dcdb73f5d4b52c",
+      "id": 6,
+      "category": "帳號設定",
+      "section": "核心知識",
+      "question": "User Settings 的 Username 欄位有何限制？",
+      "answer": "登入帳號名稱無法修改",
+      "options": [
+        "每次登入自動改名",
+        "必須等於公司名稱",
+        "登入帳號名稱無法修改",
+        "只能輸入電子郵件"
+      ],
+      "correct": 2,
+      "explanation": "一般使用者手冊明示 Username 無法修改。",
+      "explanation_source": "一般使用者手冊 p.10",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-73a09096c4efcd66",
+      "id": 7,
+      "category": "帳號設定",
+      "section": "核心知識",
+      "question": "在 User Settings 修改密碼時，需輸入哪組欄位？",
+      "answer": "Current Password、New Password、Confirm New Password",
+      "options": [
+        "Domain、Keyword、Evidence",
+        "Case ID、Element ID、Authority",
+        "Start Date、End Date、Case Type",
+        "Current Password、New Password、Confirm New Password"
+      ],
+      "correct": 3,
+      "explanation": "Change Password 流程要求目前密碼、新密碼及再次確認。",
+      "explanation_source": "一般使用者手冊 p.11",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-34559918925e27fe",
+      "id": 8,
+      "category": "帳號設定",
+      "section": "核心知識",
+      "question": "教材所載的密碼長度限制為何？",
+      "answer": "8 至 14 個字元",
+      "options": [
+        "8 至 14 個字元",
+        "只能 4 位數字",
+        "至少 32 個字元",
+        "不限長度"
+      ],
+      "correct": 0,
+      "explanation": "這是教材當時列出的平台規則；實際使用請以目前登入畫面為準。",
+      "explanation_source": "一般使用者手冊 p.11",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-633203c9da1efe1b",
+      "id": 9,
+      "category": "帳號設定",
+      "section": "核心知識",
+      "question": "教材列出的密碼更新週期為何？",
+      "answer": "三個月強制更改",
+      "options": [
+        "每五年更新",
+        "三個月強制更改",
+        "每天強制更改",
+        "永久不須更新"
+      ],
+      "correct": 1,
+      "explanation": "屬於手冊版本所述政策，並非通用資安最佳實務。",
+      "explanation_source": "一般使用者手冊 p.11",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-ad894c8cfb3c4a43",
+      "id": 10,
+      "category": "帳號設定",
+      "section": "核心知識",
+      "question": "Preferences 可以調整哪個項目？",
+      "answer": "Time Zone（時區）",
+      "options": [
+        "APWG 會員資格",
+        "C2 感染路徑",
+        "Time Zone（時區）",
+        "惡意網站自動下架次數"
+      ],
+      "correct": 2,
+      "explanation": "Preferences 列出時區、CSV 分隔符號、日期與時間格式。",
+      "explanation_source": "一般使用者手冊 p.12",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-ecd0a6184f38f034",
+      "id": 11,
+      "category": "帳號設定",
+      "section": "核心知識",
+      "question": "Delimiter for CSV Export 指的是？",
+      "answer": "匯出 CSV 時的欄位分隔符號",
+      "options": [
+        "密碼加密演算法",
+        "案件自動關閉門檻",
+        "惡意網域註冊日期",
+        "匯出 CSV 時的欄位分隔符號"
+      ],
+      "correct": 3,
+      "explanation": "此設定屬使用者顯示與匯出偏好。",
+      "explanation_source": "一般使用者手冊 p.12",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-9667e9c6b5ab4bb5",
+      "id": 12,
+      "category": "事件類型",
+      "section": "核心知識",
+      "question": "Attack - Phishing 的教材分類包含哪類事件？",
+      "answer": "釣魚網站、釣魚郵件及惡意郵件",
+      "options": [
+        "釣魚網站、釣魚郵件及惡意郵件",
+        "僅企業內部電腦中毒",
+        "僅憑證到期",
+        "僅雲端帳單異常"
+      ],
+      "correct": 0,
+      "explanation": "升版說明列舉釣魚網站、釣魚郵件與惡意郵件。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-6011c7e0f5822e82",
+      "id": 13,
+      "category": "事件類型",
+      "section": "核心知識",
+      "question": "Attack - Trojan 在教材中包含哪組外部站點？",
+      "answer": "C2、Infection Point、Communication Point、Drop Point",
+      "options": [
+        "WAF、SIEM、SOAR、EDR",
+        "C2、Infection Point、Communication Point、Drop Point",
+        "SPF、DKIM、DMARC、DNSSEC",
+        "CPU、RAM、Disk、GPU"
+      ],
+      "correct": 1,
+      "explanation": "四者是教材列出的外部木馬相關站點類型。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-cdf23788beaa89fc",
+      "id": 14,
+      "category": "事件類型",
+      "section": "核心知識",
+      "question": "Brand Abuse 類別涵蓋哪組對象？",
+      "answer": "偽冒網站、偽冒行動應用程式、偽冒社群媒體",
+      "options": [
+        "僅企業端點程式",
+        "僅 DNS 伺服器故障",
+        "偽冒網站、偽冒行動應用程式、偽冒社群媒體",
+        "僅惡意郵件附件"
+      ],
+      "correct": 2,
+      "explanation": "品牌侵犯可涉及網站、App 及社群媒體。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-111a522ec69bd1e6",
+      "id": 15,
+      "category": "下架計次",
+      "section": "核心知識",
+      "question": "教材中 Phishing 的關閉計次單位是？",
+      "answer": "Element（每個 URL 一個 Element）",
+      "options": [
+        "每一個公司帳號",
+        "每一個月固定一次",
+        "每一個網段",
+        "Element（每個 URL 一個 Element）"
+      ],
+      "correct": 3,
+      "explanation": "教材以一個 Element 對應一個 URL，關閉一個計一次。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-325108c5060943ae",
+      "id": 16,
+      "category": "下架計次",
+      "section": "核心知識",
+      "question": "教材中 Trojan 外部木馬事件的關閉計次單位是？",
+      "answer": "Case（案件）",
+      "options": [
+        "Case（案件）",
+        "每一個 URL 都算一案",
+        "每個寄件者一案",
+        "每個 CSV 檔一案"
+      ],
+      "correct": 0,
+      "explanation": "外部木馬事件以 Case 計，與 Phishing 的 Element 計次不同。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-67cbcea1caa020e2",
+      "id": 17,
+      "category": "下架計次",
+      "section": "核心知識",
+      "question": "教材中 Brand Abuse 的關閉計次單位是？",
+      "answer": "Element（每個 URL 一個 Element）",
+      "options": [
+        "每一個帳號登入",
+        "Element（每個 URL 一個 Element）",
+        "每台使用者手機",
+        "每個月一筆"
+      ],
+      "correct": 1,
+      "explanation": "品牌侵犯依 Element 計次，教材以 URL 說明。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-b69903d27f5ba6f6",
+      "id": 18,
+      "category": "下架計次",
+      "section": "核心知識",
+      "question": "釣魚網站需分別處理兩個 URL，下架次數如何計？",
+      "answer": "2 次",
+      "options": [
+        "固定 1 次",
+        "依網域數自動折半",
+        "2 次",
+        "0 次"
+      ],
+      "correct": 2,
+      "explanation": "教材明示按 URL 分別處理，兩個 URL 計兩次。",
+      "explanation_source": "升版說明 p.9",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-79322c479988a108",
+      "id": 19,
+      "category": "下架計次",
+      "section": "核心知識",
+      "question": "教材對 Phishing 的關閉判定用語為何？",
+      "answer": "Site is offline",
+      "options": [
+        "User is online",
+        "Subscription renewed",
+        "Token generated",
+        "Site is offline"
+      ],
+      "correct": 3,
+      "explanation": "教材將 Phishing 關閉定義列為 Site is offline。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-2bb8e1a81d948f41",
+      "id": 20,
+      "category": "下架計次",
+      "section": "核心知識",
+      "question": "教材對 Brand Abuse 的關閉判定用語為何？",
+      "answer": "Infringement removed",
+      "options": [
+        "Infringement removed",
+        "User logged out",
+        "Password expired",
+        "DNS query allowed"
+      ],
+      "correct": 0,
+      "explanation": "教材將品牌侵犯關閉定義列為 Infringement removed。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-cfafb417fbcce6ac",
+      "id": 21,
+      "category": "通知與案件",
+      "section": "核心知識",
+      "question": "Attack Notification 對應哪種案件？",
+      "answer": "Phishing 釣魚攻擊案件",
+      "options": [
+        "Trojan 外部木馬",
+        "Phishing 釣魚攻擊案件",
+        "Mobile Apps 偽冒 App",
+        "Social Media 偽冒帳號"
+      ],
+      "correct": 1,
+      "explanation": "通知對照表將 Attack Notification 對應 Phishing。",
+      "explanation_source": "升版說明 p.8",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-1de91aa591833de2",
+      "id": 22,
+      "category": "通知與案件",
+      "section": "核心知識",
+      "question": "Trojan Attack Notification 對應哪種案件？",
+      "answer": "Trojan 外部木馬案件",
+      "options": [
+        "Mobile Apps 偽冒 App",
+        "Social Media 偽冒帳號",
+        "Trojan 外部木馬案件",
+        "Brand Abuse 偽冒網站"
+      ],
+      "correct": 2,
+      "explanation": "通知對照表將 Trojan Attack Notification 對應 Trojan。",
+      "explanation_source": "升版說明 p.8",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-a620dd9ce8e5414c",
+      "id": 23,
+      "category": "通知與案件",
+      "section": "核心知識",
+      "question": "Mobile Rogue App Notification 主要通知什麼？",
+      "answer": "偽冒行動應用程式立案",
+      "options": [
+        "使用者密碼即將到期",
+        "CSV 匯出完成",
+        "API 文件更新",
+        "偽冒行動應用程式立案"
+      ],
+      "correct": 3,
+      "explanation": "教材對應 Mobile Apps 類型。",
+      "explanation_source": "升版說明 p.8",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-a3e898aeea9db384",
+      "id": 24,
+      "category": "通知與案件",
+      "section": "核心知識",
+      "question": "Social Media Notification 主要通知什麼？",
+      "answer": "社群媒體偽冒立案",
+      "options": [
+        "社群媒體偽冒立案",
+        "外部木馬感染點",
+        "API Token 到期",
+        "訂閱配額不足"
+      ],
+      "correct": 0,
+      "explanation": "教材對應 Social Media 類型。",
+      "explanation_source": "升版說明 p.8",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-26716e6d255c9b4c",
+      "id": 25,
+      "category": "通知與案件",
+      "section": "核心知識",
+      "question": "Domain Monitoring Notification 主要通知什麼？",
+      "answer": "近似域名偵測",
+      "options": [
+        "月報匯出完成",
+        "近似域名偵測",
+        "員工端點掃描",
+        "密碼修改完成"
+      ],
+      "correct": 1,
+      "explanation": "教材通知對照表列為近似域名偵測通知。",
+      "explanation_source": "升版說明 p.8",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-dc5763d27e1c7e29",
+      "id": 26,
+      "category": "通知與案件",
+      "section": "核心知識",
+      "question": "SSL Monitoring Notification 主要通知什麼？",
+      "answer": "SSL 憑證偽冒偵測",
+      "options": [
+        "電子郵件容量超標",
+        "網站頁面效能測試",
+        "SSL 憑證偽冒偵測",
+        "雲端主機 CPU 過高"
+      ],
+      "correct": 2,
+      "explanation": "教材通知對照表列為 SSL 憑證偽冒偵測通知。",
+      "explanation_source": "升版說明 p.8",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-115364f9752176e7",
+      "id": 27,
+      "category": "產業組織",
+      "section": "核心知識",
+      "question": "APWG 的全名是？",
+      "answer": "Anti-Phishing Working Group",
+      "options": [
+        "Advanced Password Working Group",
+        "Application Protection Web Gateway",
+        "Automated Phishing Warning Generator",
+        "Anti-Phishing Working Group"
+      ],
+      "correct": 3,
+      "explanation": "APWG 是反網路釣魚工作小組。",
+      "explanation_source": "升版說明 p.3",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-a5d14e6d70c015df",
+      "id": 28,
+      "category": "產業組織",
+      "section": "核心知識",
+      "question": "APWG 在教材中的主要定位是？",
+      "answer": "促進反釣魚資料交換、研究與公眾意識的產業組織",
+      "options": [
+        "促進反釣魚資料交換、研究與公眾意識的產業組織",
+        "企業單一登入產品",
+        "網站憑證發行機構",
+        "雲端資料庫服務"
+      ],
+      "correct": 0,
+      "explanation": "教材描述其跨產業合作與網路犯罪資訊分享宗旨。",
+      "explanation_source": "升版說明 p.3",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-cab261a89a4b7118",
+      "id": 29,
+      "category": "版本更新",
+      "section": "核心知識",
+      "question": "教材記載 Dashboard 升至 v13.5 的日期為何？",
+      "answer": "2026 年 10 月 6 日",
+      "options": [
+        "2026 年 12 月 31 日",
+        "2026 年 10 月 6 日",
+        "2024 年 1 月 1 日",
+        "2025 年 6 月 30 日"
+      ],
+      "correct": 1,
+      "explanation": "教材稱 2026/10/06 由 v13.0 升至 v13.5。",
+      "explanation_source": "升版說明 p.11",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-3b0cb1fe5c0247c3",
+      "id": 30,
+      "category": "版本更新",
+      "section": "核心知識",
+      "question": "v13.5 訂閱可見度主要改善什麼？",
+      "answer": "歷史訂閱及配額使用情況的可見性",
+      "options": [
+        "自動更改 DNS 記錄",
+        "免費增加所有服務額度",
+        "歷史訂閱及配額使用情況的可見性",
+        "新增端點防毒引擎"
+      ],
+      "correct": 2,
+      "explanation": "新版改善訂閱與配額資訊顯示，不代表免費增加額度。",
+      "explanation_source": "升版說明 p.11、p.15",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-f8ff09234c06d6d1",
+      "id": 31,
+      "category": "版本更新",
+      "section": "核心知識",
+      "question": "v13.5 強化權責單位洞察出現在哪個位置？",
+      "answer": "Dashboard > My Hosting Authorities 的 Authority 欄位",
+      "options": [
+        "Help > API Reference Guide",
+        "User Settings > Password",
+        "登入畫面的 Username",
+        "Dashboard > My Hosting Authorities 的 Authority 欄位"
+      ],
+      "correct": 3,
+      "explanation": "升版簡報指定 My Hosting Authorities 的 Authority 欄位。",
+      "explanation_source": "升版說明 p.17",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-bf37744f2ac87478",
+      "id": 32,
+      "category": "版本更新",
+      "section": "核心知識",
+      "question": "v13.5 新增的 Combolist 情資分類路徑為何？",
+      "answer": "SEARCH > Intelligence Feeds > Credential Recovery",
+      "options": [
+        "SEARCH > Intelligence Feeds > Credential Recovery",
+        "Dashboard > My Hosting Authorities",
+        "User Settings > Preferences",
+        "Help > Dashboard User Guide"
+      ],
+      "correct": 0,
+      "explanation": "新增子分類 Corporate Emails – Combolist 位於 Credential Recovery。",
+      "explanation_source": "升版說明 p.19",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-7b5d464f303f6806",
+      "id": 33,
+      "category": "版本更新",
+      "section": "核心知識",
+      "question": "Corporate Emails – Combolist 在新版屬於什麼？",
+      "answer": "Credential Recovery 下的新增情資子分類",
+      "options": [
+        "新的下架計費單位",
+        "Credential Recovery 下的新增情資子分類",
+        "新的密碼重設按鈕",
+        "新的社群平台名稱"
+      ],
+      "correct": 1,
+      "explanation": "簡報將其列為 New Intelligence Feeds 的 Sub-Category。",
+      "explanation_source": "升版說明 p.19",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-065aea6450b053a3",
+      "id": 34,
+      "category": "客戶情境",
+      "section": "客戶情境",
+      "question": "客戶問同一網域的兩個釣魚 URL 是否只算一次，依教材應如何回答？",
+      "answer": "依個別 URL 計算，兩個 URL 為兩次",
+      "options": [
+        "所有釣魚事件都不計次",
+        "只按 IP 數量計算",
+        "依個別 URL 計算，兩個 URL 為兩次",
+        "只要同網域就永遠只算一次"
+      ],
+      "correct": 2,
+      "explanation": "教材強調 URL 是獨立處理單位，勿與 Trojan Case 計次混淆。",
+      "explanation_source": "升版說明 p.9",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-c72226aca5e4c0a8",
+      "id": 35,
+      "category": "客戶情境",
+      "section": "客戶情境",
+      "question": "客戶問能否直接把 Trojan 的每個 C2 URL 當一次下架計費，應如何回答？",
+      "answer": "教材的 Trojan 下架以 Case 計算，應先確認案件範圍",
+      "options": [
+        "所有事件均按每個 IP 計次",
+        "所有事件均按每個網域計次",
+        "只按月費計算，不需看合約",
+        "教材的 Trojan 下架以 Case 計算，應先確認案件範圍"
+      ],
+      "correct": 3,
+      "explanation": "教材的 Trojan Case 計次規則不同於 Phishing/Brand Abuse；實際仍以契約為準。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-f25b6883fce6d600",
+      "id": 36,
+      "category": "客戶情境",
+      "section": "客戶情境",
+      "question": "客戶看到「Site is offline」應如何理解？",
+      "answer": "教材用來表示相關站點已離線的關閉判定",
+      "options": [
+        "教材用來表示相關站點已離線的關閉判定",
+        "表示使用者已登出",
+        "表示服務合約已終止",
+        "表示密碼即將到期"
+      ],
+      "correct": 0,
+      "explanation": "不可將 Site is offline 解讀成整個網域永久不會再出現威脅。",
+      "explanation_source": "升版說明 p.7",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-920d136650019506",
+      "id": 37,
+      "category": "客戶情境",
+      "section": "客戶情境",
+      "question": "客戶想查看配額使用歷史，依新版簡報應先到哪裡？",
+      "answer": "右上角帳號 > My Account",
+      "options": [
+        "SEARCH > Cases > Export",
+        "右上角帳號 > My Account",
+        "Help > API Reference Guide",
+        "User Settings > Time Zone"
+      ],
+      "correct": 1,
+      "explanation": "v13.5 的訂閱可見度示範從 My Account 進入。",
+      "explanation_source": "升版說明 p.15",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-2c664df9f5e8cb9f",
+      "id": 38,
+      "category": "SEARCH 搜尋",
+      "section": "核心知識",
+      "question": "Dashboard SEARCH 支援哪五種搜尋類型？",
+      "answer": "Cases、Elements、Findings、Intelligence Feeds、Advanced Notifications",
+      "options": [
+        "Domain、IP、Port、Patch、Endpoint",
+        "Dashboard、Help、Profile、Billing、Logout",
+        "Cases、Elements、Findings、Intelligence Feeds、Advanced Notifications",
+        "Cases、Users、Devices、Vulnerabilities、Alerts"
+      ],
+      "correct": 2,
+      "explanation": "系統維護手冊列出五類搜尋功能。",
+      "explanation_source": "系統維護與管理手冊 p.96",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-7192e781eaeb08a4",
+      "id": 39,
+      "category": "SEARCH 搜尋",
+      "section": "核心知識",
+      "question": "Cases 搜尋使用哪個識別碼開啟案件明細？",
+      "answer": "Case ID",
+      "options": [
+        "Finding ID",
+        "Element ID",
+        "Record ID",
+        "Case ID"
+      ],
+      "correct": 3,
+      "explanation": "Cases 清單可點擊 Case ID 進入明細。",
+      "explanation_source": "一般使用者操作手冊 p.79",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-eb48880c45eab09a",
+      "id": 40,
+      "category": "SEARCH 搜尋",
+      "section": "核心知識",
+      "question": "Elements 搜尋使用哪個識別碼開啟元素明細？",
+      "answer": "Element ID",
+      "options": [
+        "Element ID",
+        "Case ID",
+        "Finding ID",
+        "Record ID"
+      ],
+      "correct": 0,
+      "explanation": "Elements 清單可點擊 Element ID 進入明細。",
+      "explanation_source": "一般使用者操作手冊 p.85",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-c6dbc84de601de73",
+      "id": 41,
+      "category": "SEARCH 搜尋",
+      "section": "核心知識",
+      "question": "Findings 搜尋的識別碼欄位是？",
+      "answer": "Finding ID",
+      "options": [
+        "Record ID",
+        "Finding ID",
+        "Case ID",
+        "Element ID"
+      ],
+      "correct": 1,
+      "explanation": "手冊可直接輸入 Finding ID 搜尋事證。",
+      "explanation_source": "一般使用者操作手冊 p.89",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-35f63f75b9e90c66",
+      "id": 42,
+      "category": "SEARCH 搜尋",
+      "section": "核心知識",
+      "question": "Cases 結果的 # of Elements 表示什麼？",
+      "answer": "該案件對應的 Element 數量",
+      "options": [
+        "下架工作人員數量",
+        "全部品牌的案件數",
+        "該案件對應的 Element 數量",
+        "外洩帳密總數"
+      ],
+      "correct": 2,
+      "explanation": "一個 Case 可包含單一或多個 Element。",
+      "explanation_source": "一般使用者操作手冊 p.82",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-d316f1a8d046fe63",
+      "id": 43,
+      "category": "SEARCH 搜尋",
+      "section": "核心知識",
+      "question": "Elements 的 Duration 在教材中如何定義？",
+      "answer": "從 Element 被發現到 AFCC 關閉的時間",
+      "options": [
+        "使用者登入到登出的時間",
+        "網域註冊到過期的時間",
+        "訂閱開始到付款的時間",
+        "從 Element 被發現到 AFCC 關閉的時間"
+      ],
+      "correct": 3,
+      "explanation": "若網站在 AFCC 執行前自行關閉，Duration 可能為空。",
+      "explanation_source": "一般使用者操作手冊 p.88",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-999890d396037a31",
+      "id": 44,
+      "category": "SEARCH 搜尋",
+      "section": "核心知識",
+      "question": "Elements 的 #Reopens 代表什麼？",
+      "answer": "確認關閉後再次上線而被重新偵測的次數",
+      "options": [
+        "確認關閉後再次上線而被重新偵測的次數",
+        "重新登入平台的次數",
+        "重設密碼次數",
+        "報表下載次數"
+      ],
+      "correct": 0,
+      "explanation": "手冊定義為已確認關閉後再次上線的偵測次數。",
+      "explanation_source": "一般使用者操作手冊 p.88",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-ca083c2abd096c77",
+      "id": 45,
+      "category": "SEARCH 搜尋",
+      "section": "核心知識",
+      "question": "Shutdown Activity 顯示 Shutdown Complete 是否一定代表 AFCC 親自完成下架？",
+      "answer": "不一定；網站自行關閉也可能顯示 Shutdown Complete",
+      "options": [
+        "只代表使用者登出",
+        "不一定；網站自行關閉也可能顯示 Shutdown Complete",
+        "一定；只可能由 AFCC 完成",
+        "一定；代表已收費兩次"
+      ],
+      "correct": 1,
+      "explanation": "手冊特別指出網站自行關閉也可能顯示 Shutdown Complete。",
+      "explanation_source": "一般使用者操作手冊 p.88",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-22fe75ad9944b5db",
+      "id": 46,
+      "category": "下架流程",
+      "section": "核心知識",
+      "question": "Shutdown Information 的 Shutdown Approved 會記錄什麼？",
+      "answer": "同意關閉下架的時間及執行同意者",
+      "options": [
+        "網站 SSL 憑證金鑰",
+        "CSV 匯出格式",
+        "同意關閉下架的時間及執行同意者",
+        "使用者瀏覽器版本"
+      ],
+      "correct": 2,
+      "explanation": "手冊指出此節點包含同意時間及同意者。",
+      "explanation_source": "系統維護與管理手冊 p.115",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-41d091141262672a",
+      "id": 47,
+      "category": "下架流程",
+      "section": "核心知識",
+      "question": "Shutdown Information 的 Authorities Notified 表示什麼？",
+      "answer": "已通知相關權責機關",
+      "options": [
+        "已完成付款",
+        "已修改帳號名稱",
+        "已匯出 Findings",
+        "已通知相關權責機關"
+      ],
+      "correct": 3,
+      "explanation": "手冊將通知相關權責機關列為下架處理節點。",
+      "explanation_source": "系統維護與管理手冊 p.115",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-5e5bd1aed6d9c4ed",
+      "id": 48,
+      "category": "情資來源",
+      "section": "核心知識",
+      "question": "Intelligence Feeds 的 Indicators of Compromise 指什麼？",
+      "answer": "IOC 入侵指標",
+      "options": [
+        "IOC 入侵指標",
+        "密碼強度設定",
+        "企業出勤紀錄",
+        "網站版面範本"
+      ],
+      "correct": 0,
+      "explanation": "手冊列為七種情資類別之一。",
+      "explanation_source": "系統維護與管理手冊 p.117",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-90f84a3304e55586",
+      "id": 49,
+      "category": "情資來源",
+      "section": "核心知識",
+      "question": "Intelligence Feeds 的 Credential Recovery 在教材中指什麼？",
+      "answer": "暗網情資回收",
+      "options": [
+        "使用者帳號停權",
+        "暗網情資回收",
+        "密碼複雜度設定",
+        "API 憑證撤銷"
+      ],
+      "correct": 1,
+      "explanation": "舊版列 Malware Logs；v13.5 新增 Corporate Emails – Combolist。",
+      "explanation_source": "系統維護與管理手冊 p.117；升版說明 p.19",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-a71a1965b191d107",
+      "id": 50,
+      "category": "情資來源",
+      "section": "核心知識",
+      "question": "Intelligence Feeds 匯出 CSV 的教材筆數上限為何？",
+      "answer": "10 萬筆",
+      "options": [
+        "1,000 筆",
+        "100 萬筆",
+        "10 萬筆",
+        "100 筆"
+      ],
+      "correct": 2,
+      "explanation": "教材載明 CSV 最多十萬筆；實際上限以現行平台為準。",
+      "explanation_source": "一般使用者操作手冊 p.99",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-8b13b927f147ffe8",
+      "id": 51,
+      "category": "情資來源",
+      "section": "核心知識",
+      "question": "Intelligence Feeds 匯出 Excel 的教材筆數上限為何？",
+      "answer": "1 萬筆",
+      "options": [
+        "100 筆",
+        "10 萬筆",
+        "100 萬筆",
+        "1 萬筆"
+      ],
+      "correct": 3,
+      "explanation": "教材載明 Excel 最多一萬筆。",
+      "explanation_source": "一般使用者操作手冊 p.99",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-f83bef20ddb3d246",
+      "id": 52,
+      "category": "進階通知",
+      "section": "核心知識",
+      "question": "Advanced Notifications 的 Approved 表示什麼？",
+      "answer": "同意／批准執行關閉下架",
+      "options": [
+        "同意／批准執行關閉下架",
+        "待處理關閉下架",
+        "拒絕關閉下架",
+        "放棄關閉下架"
+      ],
+      "correct": 0,
+      "explanation": "User Action 的 Approved 為同意。",
+      "explanation_source": "系統維護與管理手冊 p.121",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-faafe690fe9e4065",
+      "id": 53,
+      "category": "進階通知",
+      "section": "核心知識",
+      "question": "Advanced Notifications 的 Pending 表示什麼？",
+      "answer": "待處理執行關閉下架",
+      "options": [
+        "已放棄關閉下架",
+        "待處理執行關閉下架",
+        "已同意關閉下架",
+        "已拒絕關閉下架"
+      ],
+      "correct": 1,
+      "explanation": "User Action 的 Pending 為待處理。",
+      "explanation_source": "系統維護與管理手冊 p.121",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-0820df594c9c5412",
+      "id": 54,
+      "category": "進階通知",
+      "section": "核心知識",
+      "question": "Advanced Notifications 的 Denied 表示什麼？",
+      "answer": "拒絕執行關閉下架",
+      "options": [
+        "已同意關閉下架",
+        "已完成帳號更新",
+        "拒絕執行關閉下架",
+        "待處理關閉下架"
+      ],
+      "correct": 2,
+      "explanation": "User Action 的 Denied 為拒絕。",
+      "explanation_source": "系統維護與管理手冊 p.121",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-244f12e168013b95",
+      "id": 55,
+      "category": "進階通知",
+      "section": "核心知識",
+      "question": "Advanced Notifications 的 Discard 表示什麼？",
+      "answer": "放棄執行關閉下架",
+      "options": [
+        "同意執行關閉下架",
+        "等待執行關閉下架",
+        "變更使用者時區",
+        "放棄執行關閉下架"
+      ],
+      "correct": 3,
+      "explanation": "User Action 的 Discard 為放棄。",
+      "explanation_source": "系統維護與管理手冊 p.121",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-b82697d1c9d8da33",
+      "id": 56,
+      "category": "AFCC DESK",
+      "section": "核心知識",
+      "question": "教材記載 AFCC DESK 從哪個版本新增？",
+      "answer": "Dashboard v10.0",
+      "options": [
+        "Dashboard v10.0",
+        "Dashboard v1.0",
+        "Dashboard v9.0",
+        "Dashboard v13.5 才新增"
+      ],
+      "correct": 0,
+      "explanation": "手冊指出 v10.0 在左上方新增 AFCC DESK。",
+      "explanation_source": "系統維護與管理手冊 p.125",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-e62527af08a9222c",
+      "id": 57,
+      "category": "AFCC DESK",
+      "section": "核心知識",
+      "question": "建立 AFCC DESK 服務請求應點擊什麼？",
+      "answer": "+ Service Request",
+      "options": [
+        "My Hosting Authorities",
+        "+ Service Request",
+        "Export Fields",
+        "Change Password"
+      ],
+      "correct": 1,
+      "explanation": "教材流程為 AFCC DESK > + Service Request。",
+      "explanation_source": "系統維護與管理手冊 p.126",
+      "source_status": "使用者提供教材；未對照即時平台",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    }
+  ]
+}
