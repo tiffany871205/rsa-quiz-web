@@ -1141,6 +1141,766 @@
       "source_status": "使用者提供教材；未對照即時平台",
       "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
       "references": []
+    },
+    {
+      "uid": "rsa-3ac52b951f6774e4",
+      "id": 58,
+      "category": "資安知識｜釣魚攻擊",
+      "section": "資安觀念",
+      "question": "Phishing（網路釣魚）的主要目的是什麼？",
+      "answer": "誘騙使用者交出敏感資料或執行有害操作",
+      "options": [
+        "更新瀏覽器介面",
+        "改善電子郵件排版",
+        "誘騙使用者交出敏感資料或執行有害操作",
+        "測試網站載入速度"
+      ],
+      "correct": 2,
+      "explanation": "釣魚攻擊通常利用偽冒身分或情境，誘使受害者輸入帳密、付款資料或點擊惡意內容。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-1b1a6a423f5642df",
+      "id": 59,
+      "category": "資安知識｜釣魚攻擊",
+      "section": "資安觀念",
+      "question": "Spear Phishing 與一般大量釣魚郵件的主要差異是什麼？",
+      "answer": "針對特定個人或組織客製化誘騙內容",
+      "options": [
+        "只能透過紙本信件傳送",
+        "不會使用社交工程",
+        "只能攻擊網站伺服器",
+        "針對特定個人或組織客製化誘騙內容"
+      ],
+      "correct": 3,
+      "explanation": "Spear Phishing（魚叉式釣魚）通常結合目標的工作、職稱或關係資訊，提高可信度。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-6609e1c34316c114",
+      "id": 60,
+      "category": "資安知識｜釣魚攻擊",
+      "section": "資安觀念",
+      "question": "Smishing 指的是哪種釣魚方式？",
+      "answer": "透過簡訊或文字訊息進行釣魚",
+      "options": [
+        "透過簡訊或文字訊息進行釣魚",
+        "透過電話語音進行釣魚",
+        "利用 DNS 快取投毒",
+        "透過惡意 USB 傳播"
+      ],
+      "correct": 0,
+      "explanation": "Smishing 是 SMS 與 Phishing 的組合詞，常用於假冒物流、銀行或通知簡訊。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-bea9d3792f4eaa67",
+      "id": 61,
+      "category": "資安知識｜釣魚攻擊",
+      "section": "資安觀念",
+      "question": "Vishing 通常使用哪種媒介進行詐騙？",
+      "answer": "語音通話或語音互動",
+      "options": [
+        "硬碟備份程式",
+        "語音通話或語音互動",
+        "網站 TLS 握手",
+        "路由器韌體更新"
+      ],
+      "correct": 1,
+      "explanation": "Vishing 是 Voice Phishing，攻擊者可能假冒客服、金融機構或主管。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-5e619b12c612698b",
+      "id": 62,
+      "category": "資安知識｜釣魚攻擊",
+      "section": "資安觀念",
+      "question": "釣魚網站使用 HTTPS 鎖頭圖示，最合理的安全判斷是什麼？",
+      "answer": "連線可能受到加密，但不代表網站一定合法",
+      "options": [
+        "HTTPS 代表已通過政府身分審查",
+        "HTTPS 代表不會蒐集個資",
+        "連線可能受到加密，但不代表網站一定合法",
+        "HTTPS 保證網站不是釣魚網站"
+      ],
+      "correct": 2,
+      "explanation": "TLS 憑證主要保護傳輸連線，攻擊者也可能為惡意網域申請有效憑證。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-b449cfe2d4daf976",
+      "id": 63,
+      "category": "資安知識｜釣魚攻擊",
+      "section": "資安觀念",
+      "question": "釣魚郵件中要求立刻驗證帳戶的倒數計時，主要利用哪種手法？",
+      "answer": "製造急迫感的社交工程",
+      "options": [
+        "對稱式金鑰交換",
+        "DNSSEC 簽章驗證",
+        "資料庫正規化",
+        "製造急迫感的社交工程"
+      ],
+      "correct": 3,
+      "explanation": "攻擊者透過限時、停權或罰款等話術降低受害者的查證意願。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-f1a698bf41078fff",
+      "id": 64,
+      "category": "資安知識｜釣魚攻擊",
+      "section": "資安觀念",
+      "question": "Quishing 是什麼？",
+      "answer": "利用 QR Code 導向釣魚頁面",
+      "options": [
+        "利用 QR Code 導向釣魚頁面",
+        "利用量子電腦破解密碼",
+        "利用郵件伺服器備份",
+        "利用 GPU 挖礦進行詐騙"
+      ],
+      "correct": 0,
+      "explanation": "QR Code 可隱藏實際目的網址，因此仍應核對開啟後的網域與要求。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-cd399fa49eb4987b",
+      "id": 65,
+      "category": "資安知識｜釣魚攻擊",
+      "section": "資安觀念",
+      "question": "釣魚網站的 Credential Harvesting 指什麼？",
+      "answer": "蒐集受害者輸入的帳號密碼或其他認證資訊",
+      "options": [
+        "自動備份 DNS 紀錄",
+        "蒐集受害者輸入的帳號密碼或其他認證資訊",
+        "收集公開的網站字型",
+        "測試網頁無障礙功能"
+      ],
+      "correct": 1,
+      "explanation": "Credential Harvesting 常透過偽造登入頁蒐集憑證。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-ca4105a9293d3f0e",
+      "id": 66,
+      "category": "資安知識｜網域與網址",
+      "section": "資安觀念",
+      "question": "URL 與 Domain 的關係何者正確？",
+      "answer": "URL 可包含網域、路徑與查詢參數等部分",
+      "options": [
+        "URL 只能表示 IP 位址",
+        "網域與 URL 永遠完全相同",
+        "URL 可包含網域、路徑與查詢參數等部分",
+        "網域一定包含完整網頁路徑"
+      ],
+      "correct": 2,
+      "explanation": "例如 https://example.com/login?next=home 中，example.com 是網域，而整串是 URL。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-c3ad58702259e97d",
+      "id": 67,
+      "category": "資安知識｜網域與網址",
+      "section": "資安觀念",
+      "question": "Typosquatting（錯字網域搶註）主要利用什麼？",
+      "answer": "使用者輸入常見拼字錯誤而造訪相似網域",
+      "options": [
+        "網站強制使用 TLS 1.3",
+        "郵件自動分類功能",
+        "伺服器定期備份",
+        "使用者輸入常見拼字錯誤而造訪相似網域"
+      ],
+      "correct": 3,
+      "explanation": "例如在合法品牌網域中替換或遺漏一個字母，以吸引誤入者。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-6ff1ed8d8060f577",
+      "id": 68,
+      "category": "資安知識｜網域與網址",
+      "section": "資安觀念",
+      "question": "Punycode 前綴 xn-- 通常與什麼有關？",
+      "answer": "國際化網域名稱的 ASCII 編碼表示",
+      "options": [
+        "國際化網域名稱的 ASCII 編碼表示",
+        "SMTP 郵件附件加密",
+        "Windows 執行檔格式",
+        "網站 Cookie 過期設定"
+      ],
+      "correct": 0,
+      "explanation": "Punycode 用於在 DNS 相容格式中表示非 ASCII 網域標籤；不是所有 xn-- 網域都有惡意。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-50d05881278177fb",
+      "id": 69,
+      "category": "資安知識｜網域與網址",
+      "section": "資安觀念",
+      "question": "Homograph Attack（同形異字攻擊）利用什麼特性？",
+      "answer": "外觀相似但實際不同的字元誤導使用者",
+      "options": [
+        "瀏覽器快取大小",
+        "外觀相似但實際不同的字元誤導使用者",
+        "檔案壓縮率差異",
+        "網路封包的 TTL 數值"
+      ],
+      "correct": 1,
+      "explanation": "不同文字系統的相似字元可能使惡意網域看起來像合法品牌。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-e4f9ef7fe017c532",
+      "id": 70,
+      "category": "資安知識｜網域與網址",
+      "section": "資安觀念",
+      "question": "DNS 在瀏覽網站時的主要角色是什麼？",
+      "answer": "將網域名稱解析為可用於連線的網路位址等紀錄",
+      "options": [
+        "直接替使用者輸入密碼",
+        "保證網站不會被重新上線",
+        "將網域名稱解析為可用於連線的網路位址等紀錄",
+        "自動確認網站內容沒有詐騙"
+      ],
+      "correct": 2,
+      "explanation": "DNS 提供名稱解析，但解析成功不等於網站可信任。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-897450da808cd959",
+      "id": 71,
+      "category": "資安知識｜網域與網址",
+      "section": "資安觀念",
+      "question": "針對同一個網域下不同路徑的兩個釣魚 URL，何者合理？",
+      "answer": "可能指向不同頁面或不同攻擊內容，應分別調查",
+      "options": [
+        "必定是完全相同的網頁",
+        "必定屬於兩個不同網域",
+        "只需查看網域字數即可判斷",
+        "可能指向不同頁面或不同攻擊內容，應分別調查"
+      ],
+      "correct": 3,
+      "explanation": "URL 的路徑與參數可能影響實際內容；與教材按 Element 計次的概念可互相連結。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-e06ecee2c2986b1b",
+      "id": 72,
+      "category": "資安知識｜木馬與惡意程式",
+      "section": "資安觀念",
+      "question": "Trojan（木馬程式）的核心特徵是什麼？",
+      "answer": "偽裝成正常程式或內容以誘使使用者執行",
+      "options": [
+        "偽裝成正常程式或內容以誘使使用者執行",
+        "必定能自行複製感染其他檔案",
+        "只能透過硬體故障產生",
+        "必定不需要使用者互動"
+      ],
+      "correct": 0,
+      "explanation": "Trojan 通常利用偽裝與欺騙進入環境，是否自我複製不能一概而論。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-214001abc2afd35b",
+      "id": 73,
+      "category": "資安知識｜木馬與惡意程式",
+      "section": "資安觀念",
+      "question": "C2（Command and Control）在惡意程式活動中主要做什麼？",
+      "answer": "供攻擊者對受控裝置下達指令或交換資訊",
+      "options": [
+        "自動更新合法軟體授權",
+        "供攻擊者對受控裝置下達指令或交換資訊",
+        "保證使用者電腦的資料完整性",
+        "核發網站的 TLS 憑證"
+      ],
+      "correct": 1,
+      "explanation": "C2 是命令與控制機制，可用於指令、回報與後續惡意活動。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-d4e39f692c30b931",
+      "id": 74,
+      "category": "資安知識｜木馬與惡意程式",
+      "section": "資安觀念",
+      "question": "Drop Point 在惡意活動調查中通常指什麼？",
+      "answer": "供攻擊者收集或暫存竊取資料的接收位置",
+      "options": [
+        "郵件寄送者的顯示名稱",
+        "網頁上的廣告版位",
+        "供攻擊者收集或暫存竊取資料的接收位置",
+        "合法軟體更新的簽章伺服器"
+      ],
+      "correct": 2,
+      "explanation": "Drop Point 常用來描述被竊資料的投遞或暫存位置；實際功能依攻擊鏈而異。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-2ad603f0bcdce42c",
+      "id": 75,
+      "category": "資安知識｜木馬與惡意程式",
+      "section": "資安觀念",
+      "question": "Infection Point 最貼近哪種概念？",
+      "answer": "造成受害裝置感染的來源或接觸點",
+      "options": [
+        "所有惡意程式的最終控制中心",
+        "企業的合法資料備份區",
+        "TLS 憑證管理中心",
+        "造成受害裝置感染的來源或接觸點"
+      ],
+      "correct": 3,
+      "explanation": "Infection Point 可作為追查惡意程式感染來源的線索。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-b549e89081ac0995",
+      "id": 76,
+      "category": "資安知識｜木馬與惡意程式",
+      "section": "資安觀念",
+      "question": "Communication Point 在木馬相關基礎設施中通常指什麼？",
+      "answer": "受感染系統對外通訊涉及的站點或中繼點",
+      "options": [
+        "受感染系統對外通訊涉及的站點或中繼點",
+        "企業使用者的登入帳號",
+        "網頁的 CSS 樣式檔",
+        "瀏覽器書籤同步服務"
+      ],
+      "correct": 0,
+      "explanation": "此詞在不同情資產品的分類細節可能不同，應搭配實際通訊紀錄判讀。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-e6d920d8f39c25be",
+      "id": 77,
+      "category": "資安知識｜木馬與惡意程式",
+      "section": "資安觀念",
+      "question": "惡意程式的 Persistence（持續存取）指什麼？",
+      "answer": "設法在重新啟動或環境變化後仍保有存取能力",
+      "options": [
+        "確保所有密碼永不過期",
+        "設法在重新啟動或環境變化後仍保有存取能力",
+        "讓網站圖片永久快取",
+        "讓 DNS 查詢不需網路"
+      ],
+      "correct": 1,
+      "explanation": "攻擊者可能利用排程、啟動項目或服務達成持續存取。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-5aa3bb832df27d35",
+      "id": 78,
+      "category": "資安知識｜木馬與惡意程式",
+      "section": "資安觀念",
+      "question": "Exfiltration（資料外洩傳輸）最貼近哪種行為？",
+      "answer": "將未授權取得的資料傳送到外部目的地",
+      "options": [
+        "更新使用者介面語言",
+        "網站產生公開的 robots.txt",
+        "將未授權取得的資料傳送到外部目的地",
+        "企業定期備份至核准儲存區"
+      ],
+      "correct": 2,
+      "explanation": "資料外洩傳輸可能利用 HTTP、DNS 或其他通道；應結合授權情境判斷。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-193ff9e5b69d1b3a",
+      "id": 79,
+      "category": "資安知識｜木馬與惡意程式",
+      "section": "資安觀念",
+      "question": "惡意程式的 Hash 值在調查中通常有何用途？",
+      "answer": "作為特定檔案內容的辨識線索",
+      "options": [
+        "直接證明操作者真實身分",
+        "保證檔案一定無害",
+        "決定網站的法律管轄區",
+        "作為特定檔案內容的辨識線索"
+      ],
+      "correct": 3,
+      "explanation": "雜湊可用於比對檔案樣本，但同一惡意家族可能有不同 Hash。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-e1c40abb313a4b59",
+      "id": 80,
+      "category": "資安知識｜情資與調查",
+      "section": "資安觀念",
+      "question": "IOC（入侵指標）可能包含哪組資料？",
+      "answer": "惡意 IP、網域、URL 或檔案 Hash",
+      "options": [
+        "惡意 IP、網域、URL 或檔案 Hash",
+        "員工薪資與休假天數",
+        "公司商標色票與字型",
+        "網站前端排版與動畫"
+      ],
+      "correct": 0,
+      "explanation": "IOC 是可觀察的技術線索，不代表單一指標就能證明完整攻擊事件。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-29f0d01a6eb0e1cd",
+      "id": 81,
+      "category": "資安知識｜情資與調查",
+      "section": "資安觀念",
+      "question": "IOA（攻擊指標）相較 IOC 更偏向什麼？",
+      "answer": "攻擊行為模式與活動特徵",
+      "options": [
+        "網站憑證發行者名稱",
+        "攻擊行為模式與活動特徵",
+        "單一檔案的固定 Hash",
+        "員工電腦資產編號"
+      ],
+      "correct": 1,
+      "explanation": "IOA 常用來描述可疑行為與攻擊手法，能補足單一靜態 IOC 的限制。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-6327ffbd4d351428",
+      "id": 82,
+      "category": "資安知識｜情資與調查",
+      "section": "資安觀念",
+      "question": "False Positive（誤報）指什麼？",
+      "answer": "系統將正常活動錯誤判定為威脅",
+      "options": [
+        "攻擊者成功登入",
+        "網站合法更換網域",
+        "系統將正常活動錯誤判定為威脅",
+        "系統漏掉真實威脅"
+      ],
+      "correct": 2,
+      "explanation": "誤報會增加分析負擔，因此情資需搭配上下文與證據確認。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-95134ed681cc56de",
+      "id": 83,
+      "category": "資安知識｜情資與調查",
+      "section": "資安觀念",
+      "question": "False Negative（漏報）指什麼？",
+      "answer": "實際存在的威脅未被系統識別",
+      "options": [
+        "正常活動被判為威脅",
+        "報表匯出成功",
+        "網站憑證正常更新",
+        "實際存在的威脅未被系統識別"
+      ],
+      "correct": 3,
+      "explanation": "漏報會讓威脅未進入調查流程，與誤報是不同問題。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-a51f2e72689ec736",
+      "id": 84,
+      "category": "資安知識｜情資與調查",
+      "section": "資安觀念",
+      "question": "Credential Stuffing（憑證填充）主要利用什麼？",
+      "answer": "使用外洩帳密組合批量嘗試登入其他服務",
+      "options": [
+        "使用外洩帳密組合批量嘗試登入其他服務",
+        "猜測單一使用者的生日密碼",
+        "修改網站 DNS 的 MX 紀錄",
+        "偽造網站 TLS 憑證的簽章"
+      ],
+      "correct": 0,
+      "explanation": "密碼重複使用使外洩帳密組合更容易被拿來嘗試其他網站。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-07c7e6d5bc04869d",
+      "id": 85,
+      "category": "資安知識｜情資與調查",
+      "section": "資安觀念",
+      "question": "Combolist 最接近哪種資料形式？",
+      "answer": "由帳號、電子郵件及密碼等組合構成的清單",
+      "options": [
+        "SSL 憑證發行機構名單",
+        "由帳號、電子郵件及密碼等組合構成的清單",
+        "合法網站的 HTML 樣式清單",
+        "網路交換器的連接埠清單"
+      ],
+      "correct": 1,
+      "explanation": "Combolist 可能含多來源憑證組合；出現於清單不等於每組帳密目前都有效。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-aa8c84641fcdc181",
+      "id": 86,
+      "category": "資安知識｜情資與調查",
+      "section": "資安觀念",
+      "question": "Dark Web（暗網）與 Deep Web（深網）的關係何者正確？",
+      "answer": "暗網通常是深網的一部分，但兩者並非同義詞",
+      "options": [
+        "暗網等於所有需要登入的網站",
+        "所有暗網內容都可由一般搜尋引擎直接索引",
+        "暗網通常是深網的一部分，但兩者並非同義詞",
+        "深網只包含犯罪網站"
+      ],
+      "correct": 2,
+      "explanation": "深網泛指未被一般搜尋引擎索引的內容，暗網通常需特定軟體或設定存取。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-8bf2a3774ad5a0c1",
+      "id": 87,
+      "category": "資安知識｜情資與調查",
+      "section": "資安觀念",
+      "question": "TLP（Traffic Light Protocol）在威脅情資分享中主要用於什麼？",
+      "answer": "標示資訊分享與再散布的限制",
+      "options": [
+        "衡量網頁下載速度",
+        "指定 TLS 加密版本",
+        "決定釣魚網站的下架計費",
+        "標示資訊分享與再散布的限制"
+      ],
+      "correct": 3,
+      "explanation": "TLP 協助資訊提供者與接收者理解分享邊界；不是機密等級的完整替代品。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-a04a6f26a2dcaea5",
+      "id": 88,
+      "category": "資安知識｜品牌與下架",
+      "section": "資安觀念",
+      "question": "Brand Impersonation（品牌冒用）最主要的風險是什麼？",
+      "answer": "冒用品牌可信度誘騙使用者或損害品牌聲譽",
+      "options": [
+        "冒用品牌可信度誘騙使用者或損害品牌聲譽",
+        "讓合法網站的圖片自動縮小",
+        "增加官方網站的搜尋排名",
+        "改善合法 App 的更新速度"
+      ],
+      "correct": 0,
+      "explanation": "品牌冒用可能出現在網頁、社群帳號、廣告或行動應用程式。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-de27faf8c0b929f4",
+      "id": 89,
+      "category": "資安知識｜品牌與下架",
+      "section": "資安觀念",
+      "question": "偽冒社群帳號與單純評論品牌的帳號，判讀時應先確認什麼？",
+      "answer": "是否冒充官方身分、使用者混淆風險及相關證據",
+      "options": [
+        "帳號是否每天更新貼文",
+        "是否冒充官方身分、使用者混淆風險及相關證據",
+        "帳號是否使用深色模式",
+        "貼文是否超過一百字"
+      ],
+      "correct": 1,
+      "explanation": "不能僅因帳號提及品牌就認定為偽冒，需核對身分表述與證據。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-9671b14ebb99b638",
+      "id": 90,
+      "category": "資安知識｜品牌與下架",
+      "section": "資安觀念",
+      "question": "Takedown（下架）與 Blocking（阻擋）的主要差異是什麼？",
+      "answer": "下架嘗試移除或停止惡意內容；阻擋限制特定通路的存取",
+      "options": [
+        "阻擋代表來源主機已永久關閉",
+        "下架只能針對電子郵件附件",
+        "下架嘗試移除或停止惡意內容；阻擋限制特定通路的存取",
+        "兩者一定由同一家公司執行"
+      ],
+      "correct": 2,
+      "explanation": "阻擋清單可能先降低可達性，但不代表原始網站或內容已消失。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-5c9dd0e278ad4229",
+      "id": 91,
+      "category": "資安知識｜品牌與下架",
+      "section": "資安觀念",
+      "question": "向 Hosting Provider 提交惡意網站濫用通報時，最有幫助的是什麼？",
+      "answer": "可重現的惡意 URL、時間與相關證據",
+      "options": [
+        "只有品牌名稱沒有網址",
+        "僅提供客服滿意度評分",
+        "僅提供網站背景顏色",
+        "可重現的惡意 URL、時間與相關證據"
+      ],
+      "correct": 3,
+      "explanation": "清楚證據有助於權責單位定位內容與評估處理。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-52a71d35ecf4b1de",
+      "id": 92,
+      "category": "資安知識｜品牌與下架",
+      "section": "資安觀念",
+      "question": "惡意網頁被下架後又重新上線，最合理的應對是什麼？",
+      "answer": "重新蒐證、確認位置與狀態並追蹤後續處理",
+      "options": [
+        "重新蒐證、確認位置與狀態並追蹤後續處理",
+        "直接宣稱前次通報完全沒有作用",
+        "永遠忽略相同網域的事件",
+        "只需修改企業內部桌布"
+      ],
+      "correct": 0,
+      "explanation": "攻擊者可能更換 URL、主機或重新部署，因此持續監控與再上線追蹤很重要。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-aba8bb1befa8ebd9",
+      "id": 93,
+      "category": "資安知識｜品牌與下架",
+      "section": "資安觀念",
+      "question": "網站離線是否等於所有已遭竊帳密都恢復安全？",
+      "answer": "不是；受害帳密仍需變更並評估是否遭濫用",
+      "options": [
+        "是；不需通知受影響者",
+        "不是；受害帳密仍需變更並評估是否遭濫用",
+        "是；網站離線會自動重設所有密碼",
+        "是；瀏覽器會自動刪除攻擊者資料"
+      ],
+      "correct": 1,
+      "explanation": "網站下架只能降低持續接觸風險，無法回收已被竊取的憑證。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-42655f632486ba59",
+      "id": 94,
+      "category": "資安知識｜品牌與下架",
+      "section": "資安觀念",
+      "question": "為什麼下架流程可能需要通知 Registrar 或 Hosting Provider？",
+      "answer": "不同單位掌握網域註冊或內容託管的處理權限",
+      "options": [
+        "兩者都能直接刪除使用者電腦檔案",
+        "兩者都只提供網站設計服務",
+        "不同單位掌握網域註冊或內容託管的處理權限",
+        "兩者都負責修改受害者的銀行密碼"
+      ],
+      "correct": 2,
+      "explanation": "網域註冊商與主機託管商職責不同，實際處理方式依濫用類型與權限而異。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
+    },
+    {
+      "uid": "rsa-5de17d683f771d26",
+      "id": 95,
+      "category": "資安知識｜品牌與下架",
+      "section": "資安觀念",
+      "question": "對惡意網址採取瀏覽器黑名單封鎖，應如何向客戶描述成果？",
+      "answer": "已降低受支援瀏覽器使用者的存取風險，但不保證來源內容已移除",
+      "options": [
+        "表示所有網路服務商已刪除該網站",
+        "表示攻擊者所有帳號已停用",
+        "表示該網域永遠無法再註冊",
+        "已降低受支援瀏覽器使用者的存取風險，但不保證來源內容已移除"
+      ],
+      "correct": 3,
+      "explanation": "封鎖的涵蓋範圍取決於清單提供者與採用該清單的產品。",
+      "explanation_source": "補充通用資安知識（非 FraudAction 手冊原文）",
+      "source_status": "補充通用資安知識；非操作手冊原文",
+      "quality_review": "編輯撰寫：四個選項與答案已結構檢查；尚待人工逐題複核",
+      "references": []
     }
   ]
 }
